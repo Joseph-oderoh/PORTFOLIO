@@ -1,5 +1,39 @@
-{%extends 'base.html'%}
+{%extends 'base.html'%} {% block content %}
+<hr />
+<div class="container-fluid cont">
+	<div>
+		<img src="static/images/favicon.jpg" class="imagez img-fluid" />
+	</div>
+	<div class="titl">
+		<h1 class="click">
+			 <i class="h1">"Joseph Oderoh"</i> <br />
+		</h1>
+		<h2><span class="hd2">Fullstack Software Developer
+			Experienced Full Stack Developer with a demonstrated history.<br/> Building Web applications with  Angular,Python, Django, Flask, MySQL/Postgres and some other cool libraries and frameworks.</span></h2>
+		
+	</div>	
+</div>
 
- {% block content %}
- <h1 class="text-center">Oderoh_Portfolio</h1>
- {% endblock %}
+<div class="container text-center">
+	<button class="gitz mt-5 mr-5"><a class="nav-link" href="https://github.com/Joseph-oderoh"><span class="mdi mdi-github"></span></a></button>
+	<button class="in mt-5 mr-5"><a class="nav-link" href="https://www.linkedin.com/in/kenedyoderoh/"><span class="mdi mdi-linkedin"></span></a></button>
+	<button class="twit mt-5"><a class="nav-link" href="https://twitter.com/OderohK"><span class="mdi mdi-twitter"></span></a></button>
+	
+</div>
+<div class="container">
+<h3 class="mt-5 text-warning text-center abt">About_Me</h3>
+	<hr class="hr"/>
+
+	<p class="text-center text-light about mt-5">
+		I am a Software developer recently graduated from Moringa school were i interacted with <br/>
+	   different programming languages  such Python,javascript and Angular framework for frontend  design. Which I used to come up with and create <br/>
+	   variours web apps  from the diferrent  languages Django and Flask. Which makes me be able backends and frontend modules designs. While in moringa I was also <br/>
+	   at one point I was put as A scrum master during  end module group project development. This held in inproving soft leadership skills,working with others .
+	</p>
+
+	<h6 class="mt-5 text-warning text-center abt">Intrest</h6>
+
+</div>
+
+
+{% endblock %}

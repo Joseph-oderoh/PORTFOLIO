@@ -1,0 +1,108 @@
+.imagez{
+    
+    width: 400px;
+    border: 2px solid white;
+   
+}
+
+.cont{
+    display: flex;
+    gap: 10px;
+}
+
+.titl{
+    font-size: 30px;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+i{
+    color: white;
+    font-size: 80px;
+    font-family: Eczar;
+    font-weight: 800;
+}
+
+
+.hd2{
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 100;
+}
+.h1{
+    font-family: serif;
+    text-transform: uppercase;
+}
+.click{
+    font-family: serif;
+    padding-top : 22px;
+    margin-top: 10%;
+    padding-bottom: 30px; 
+    /* animation-iteration-count: infinite; */
+  }
+.click{
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-55px);
+    }
+    60% {
+      transform: translateY(-45px);
+    }
+  }
+  .hd1{
+      font-size: 20px;
+  }
+
+  .gitz{
+      padding: 10x;
+      background-color: rgb(61, 61, 61);
+      
+  }
+  .gitz:hover{
+    background-color: white;
+    padding: 10px;
+    
+  }
+  .in{
+    padding: 10x;
+    background-color: rgb(61, 61, 61);
+    
+}
+.in:hover{
+    background-color: white;
+    padding: 10px;
+}
+.twit{
+    padding: 10x;
+    background-color: rgb(61, 61, 61);
+    
+}
+.twit:hover{
+    background-color: white;
+    padding: 10px;
+}
+
+.hr {
+    width: 70px;
+    padding: 2.5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(222,194,50);
+  }
+
+  .about{
+      font-family: poppins;
+      font-size: 20px;
+  }
+
+  .abt{
+      font-family: serif;
+  }
