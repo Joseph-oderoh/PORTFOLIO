@@ -64,7 +64,7 @@ i{
   .gitz{
       padding: 10x;
       background-color: rgb(61, 61, 61);
-      
+      border-radius: 45px;
   }
   .gitz:hover{
     background-color: white;
@@ -74,6 +74,7 @@ i{
   .in{
     padding: 10x;
     background-color: rgb(61, 61, 61);
+    border-radius: 45px;
     
 }
 .in:hover{
@@ -83,7 +84,7 @@ i{
 .twit{
     padding: 10x;
     background-color: rgb(61, 61, 61);
-    
+    border-radius: 45px;
 }
 .twit:hover{
     background-color: white;
@@ -106,3 +107,19 @@ i{
   .abt{
       font-family: serif;
   }
+
+
+  .heading{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.none{
+    display: none;
+}
+
+.Whatwe{
+    padding-bottom: 20px;
+    height: 50vh;
+}

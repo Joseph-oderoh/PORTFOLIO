@@ -15,6 +15,11 @@ import os
 import dj_database_url
 from decouple import config, Csv
 import django_heroku
+import cloudinary.api
+import cloudinary.uploader
+import cloudinary
+
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -36,6 +41,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'portfolio.apps.PortfolioConfig',
     'bootstrap4',
+    'cloudinary',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -141,7 +147,18 @@ STATICFILES_DIRS = [
 ]
 
 
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+django_heroku.settings(locals())
+
+
+
+cloudinary.config( 
+  cloud_name = 'djhwy1ht2',
+  api_key = '563546575339531', 
+  api_secret = '4NWY4_bGMFOijAAlKMCpw0ftIDY'
+)
